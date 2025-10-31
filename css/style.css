@@ -1,7 +1,58 @@
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #f6f9f6;
+  color: #1b2d1b;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f3d1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 4px solid #4caf50;
+}
+
+header h1, header h2 {
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #c8e6c9;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+section {
+  width: 95%;
+  max-width: 1600px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
 .project {
   margin-bottom: 50px;
   padding: 20px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #c8e6c9;
 }
 
 .project-header {
@@ -11,27 +62,165 @@
 .project-header h3 {
   font-size: 1.6em;
   margin-bottom: 5px;
-  color: #003366;
+  color: #2e7d32;
 }
 
 .role {
   font-weight: bold;
   margin: 0;
+  color: #1b5e20;
 }
 
 .date {
   font-style: italic;
-  color: #777;
+  color: #4e6b4e;
   margin-bottom: 10px;
 }
 
 .project-body p {
   margin-top: 10px;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #2c3e2c;
 }
 
 .project img {
   display: block;
-  margin: 10px 0 20px 0;
+  margin: 15px 0 25px 0;
   border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/* Lists under Key Contributions */
+.project-body ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.project-body li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #1f3d1f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9em;
+  border-top: 4px solid #4caf50;
+}
+
+footer a {
+  color: #a5d6a7;       /* Muted green links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  header {
+    padding: 20px 10px;
+  }
+
+  header h1, header h2 {
+    font-size: 1.6em;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 8px;
+    font-size: 0.9em;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .project-header h3 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 1.4em;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .project-header h3 {
+    font-size: 1.2em;
+  }
+}
+
+a:hover {
+  transition: color 0.3s ease, transform 0.2s ease;
+  transform: scale(1.03);
 }
