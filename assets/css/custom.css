@@ -1,0 +1,11 @@
+/* Small additions on top of the Future Imperfect template */
+#main .section-title {
+	font-size: 0.9em;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	margin: 0 0 1.5em 0;
+	padding-bottom: 0.75em;
+	border-bottom: solid 2px #2f7d32;
+	color: #2f7d32;
+}
+#main .section-title:not(:first-child) { margin-top: 3em; }
