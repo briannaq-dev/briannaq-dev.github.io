@@ -8,9 +8,9 @@
 		<title>Projects | Brianna Quinn</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Consulting, software and data projects by Brianna Quinn: Foresight, Monte Carlo, SpotiRecs, US Transit Accessibility and Foursquare." />
+		<meta name="description" content="Consulting, software and data projects by Brianna Quinn: Foresight, SpotiRecs, US Transit Accessibility, Foursquare, TA Assignment Optimizer, Pharma Sales Star Schema and Monte Carlo." />
 		<meta property="og:title" content="Projects | Brianna Quinn" />
-		<meta property="og:description" content="Consulting, software and data projects by Brianna Quinn: Foresight, Monte Carlo, SpotiRecs, US Transit Accessibility and Foursquare." />
+		<meta property="og:description" content="Consulting, software and data projects by Brianna Quinn: Foresight, SpotiRecs, US Transit Accessibility, Foursquare, TA Assignment Optimizer, Pharma Sales Star Schema and Monte Carlo." />
 		<link rel="icon" type="image/svg+xml" href="images/monogram.svg" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
@@ -38,10 +38,13 @@
 			<section id="menu">
 				<section>
 					<ul class="links">
-						<li><a href="index.html"><h3>Home</h3><p>About and experience</p></a></li>
-						<li><a href="projects.html"><h3>Projects</h3><p>Consulting, software and data work</p></a></li>
-						<li><a href="https://github.com/briannaq-dev"><h3>GitHub</h3><p>Code and repositories</p></a></li>
-						<li><a href="https://www.linkedin.com/in/brianna-j-quinn/"><h3>LinkedIn</h3><p>Connect with me</p></a></li>
+						<li><a href="#foresight"><h3>Foresight</h3><p>Project Manager</p></a></li>
+						<li><a href="#spotirecs"><h3>SpotiRecs</h3><p>TC Developer</p></a></li>
+						<li><a href="#us-transit-accessibility"><h3>US Transit Accessibility</h3><p>Interactive data visualization</p></a></li>
+						<li><a href="#foursquare"><h3>Foursquare</h3><p>Android app</p></a></li>
+						<li><a href="#ta-assignment-optimizer"><h3>TA Assignment Optimizer</h3><p>Evolutionary algorithm</p></a></li>
+						<li><a href="#pharma-sales-star-schema"><h3>Pharma Sales Star Schema</h3><p>Data engineering</p></a></li>
+						<li><a href="#monte-carlo"><h3>Monte Carlo</h3><p>TC Project Manager</p></a></li>
 					</ul>
 				</section>
 				<section>
@@ -52,7 +55,7 @@
 			</section>
 
 			<div id="main">
-				<article class="post">
+				<article class="post" id="foresight">
 					<header>
 						<div class="title">
 							<h2>Foresight</h2>
@@ -76,31 +79,7 @@
 					</footer>
 				</article>
 
-				<article class="post">
-					<header>
-						<div class="title">
-							<h2>Monte Carlo</h2>
-							<p>TC Project Manager &middot; TAMID</p>
-						</div>
-						<div class="meta">
-							<time class="published">Feb&ndash;Apr 2025</time>
-						</div>
-					</header>
-					<p>A data visualization project for modeling and simulating uncertainty in investment portfolios, helping users understand the probability distributions of expected returns. My role combined leadership and technical oversight across simulation logic, visualization design, and documentation.</p>
-					<ul>
-						<li>Spearheaded weekly meetings, established team deliverables, and maintained communication between liaisons and the internal team.</li>
-						<li>Built a Monte Carlo simulation model to forecast price paths and visualize confidence intervals using GBM and Matplotlib.</li>
-						<li>Automated real-time stock data retrieval and preprocessing from public markets using the Yahoo Finance API and Pandas.</li>
-						<li>Implemented a pipeline to generate volatility trends, moving averages, and correlation matrices using NumPy and Pandas.</li>
-					</ul>
-					<footer>
-						<ul class="actions">
-							<li><a href="https://github.com/TamidNu/monte-carlo-simulation" class="button large">View on GitHub</a></li>
-						</ul>
-					</footer>
-				</article>
-
-				<article class="post">
+				<article class="post" id="spotirecs">
 					<header>
 						<div class="title">
 							<h2>SpotiRecs</h2>
@@ -122,7 +101,7 @@
 					</footer>
 				</article>
 
-				<article class="post">
+				<article class="post" id="us-transit-accessibility">
 					<header>
 						<div class="title">
 							<h2>US Transit Accessibility</h2>
@@ -144,7 +123,7 @@
 					</footer>
 				</article>
 
-				<article class="post">
+				<article class="post" id="foursquare">
 					<header>
 						<div class="title">
 							<h2>Foursquare</h2>
@@ -160,6 +139,74 @@
 					<footer>
 						<ul class="actions">
 							<li><a href="https://github.com/briannaq-dev/foursquare" class="button large">View on GitHub</a></li>
+						</ul>
+					</footer>
+				</article>
+
+				<article class="post" id="ta-assignment-optimizer">
+					<header>
+						<div class="title">
+							<h2>TA Assignment Optimizer</h2>
+							<p>Evolutionary algorithm &middot; DS3500</p>
+						</div>
+						<div class="meta">
+							<time class="published">Fall 2024</time>
+						</div>
+					</header>
+					<ul>
+						<li>Wrote a multi-objective evolutionary algorithm from scratch that assigns 43 TAs to 17 lab sections while balancing five competing objectives: overallocation, time conflicts, undersupport, unwilling and unpreferred assignments.</li>
+						<li>Maintains a Pareto front of non-dominated solutions and picks a best solution with a weighted score.</li>
+						<li>Added a decorator-based profiler and unit tests for every objective function.</li>
+					</ul>
+					<footer>
+						<ul class="actions">
+							<li><a href="https://github.com/briannaq-dev/ta-assignment-optimizer" class="button large">View on GitHub</a></li>
+						</ul>
+					</footer>
+				</article>
+
+				<article class="post" id="pharma-sales-star-schema">
+					<header>
+						<div class="title">
+							<h2>Pharma Sales Star Schema</h2>
+							<p>Data engineering &middot; CS3200</p>
+						</div>
+						<div class="meta">
+							<time class="published">Summer 2024</time>
+						</div>
+					</header>
+					<ul>
+						<li>Built an ETL pipeline in R that cleans and loads about 25,500 sales transactions into a normalized SQLite database with keys and constraints, partitioned by year.</li>
+						<li>Designed a star-schema fact table (product, month, year, country) in MySQL and verified that its totals reconcile with the source data.</li>
+						<li>Wrote the analytical SQL and a reproducible R Markdown report, plus plain-SQL scripts that reproduce the analysis in SQLite.</li>
+					</ul>
+					<footer>
+						<ul class="actions">
+							<li><a href="https://github.com/briannaq-dev/pharma-sales-star-schema" class="button large">View on GitHub</a></li>
+						</ul>
+					</footer>
+				</article>
+
+				<article class="post" id="monte-carlo">
+					<header>
+						<div class="title">
+							<h2>Monte Carlo</h2>
+							<p>TC Project Manager &middot; TAMID</p>
+						</div>
+						<div class="meta">
+							<time class="published">Feb&ndash;Apr 2025</time>
+						</div>
+					</header>
+					<p>A data visualization project for modeling and simulating uncertainty in investment portfolios, helping users understand the probability distributions of expected returns. My role combined leadership and technical oversight across simulation logic, visualization design, and documentation.</p>
+					<ul>
+						<li>Spearheaded weekly meetings, established team deliverables, and maintained communication between liaisons and the internal team.</li>
+						<li>Built a Monte Carlo simulation model to forecast price paths and visualize confidence intervals using GBM and Matplotlib.</li>
+						<li>Automated real-time stock data retrieval and preprocessing from public markets using the Yahoo Finance API and Pandas.</li>
+						<li>Implemented a pipeline to generate volatility trends, moving averages, and correlation matrices using NumPy and Pandas.</li>
+					</ul>
+					<footer>
+						<ul class="actions">
+							<li><a href="https://github.com/TamidNu/monte-carlo-simulation" class="button large">View on GitHub</a></li>
 						</ul>
 					</footer>
 				</article>
@@ -189,28 +236,6 @@
 					<p><strong>Finance:</strong> Equity valuation (DCF, comps, WACC), financial modeling, Bloomberg BQNT/BQL, Excel</p>
 				</section>
 
-				<section>
-					<div class="mini-posts">
-						<article class="mini-post">
-							<header>
-								<h3><a href="https://github.com/briannaq-dev/US-transit-accessibility">US Transit Accessibility</a></h3>
-								<p class="published">Interactive D3 data story</p>
-							</header>
-						</article>
-						<article class="mini-post">
-							<header>
-								<h3><a href="https://github.com/briannaq-dev/foursquare">Foursquare</a></h3>
-								<p class="published">Android app in Kotlin and Compose</p>
-							</header>
-						</article>
-						<article class="mini-post">
-							<header>
-								<h3><a href="https://github.com/TamidNu/SpotiRecs">SpotiRecs</a></h3>
-								<p class="published">Full-stack music recommender</p>
-							</header>
-						</article>
-					</div>
-				</section>
 
 				<section id="footer">
 					<ul class="icons">
@@ -218,7 +243,6 @@
 						<li><a href="https://www.linkedin.com/in/brianna-j-quinn/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						<li><a href="mailto:quinn.bria@northeastern.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
-					<p class="copyright">&copy; Brianna Quinn. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 				</section>
 			</section>
 
