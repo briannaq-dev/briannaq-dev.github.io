@@ -9,3 +9,7 @@
 	color: #2f7d32;
 }
 #main .section-title:not(:first-child) { margin-top: 3em; }
+
+/* Keep jump-to targets clear of the fixed header */
+#main .post { scroll-margin-top: 4.5em; }
+#main .section-title { scroll-margin-top: 4.5em; }

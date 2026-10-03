@@ -11,7 +11,7 @@ It's a small static site with an overview of who I am and what I've worked on:
 ## Design
 - Built on the [Future Imperfect](https://html5up.net/future-imperfect) template by [HTML5 UP](https://html5up.net) (CC BY 3.0, see `LICENSE-template.txt`), with a green accent color and the content written as experience and project posts.
 - Two pages, `index.html` (about and experience) and `projects.html` (consulting, software and data projects), in plain HTML using the template's CSS and JavaScript. No build step.
-- Responsive layout with a slide-out menu on small screens.
+- Responsive layout. The slide-out menu jumps between the sections of whichever page you are on (each experience or project).
 - `images/headshot.jpg` is my profile photo (cropped, with metadata removed). `images/monogram.svg` is the favicon.
 
 For code and project write-ups, see my [GitHub profile](https://github.com/briannaq-dev).
