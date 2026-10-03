@@ -6,14 +6,15 @@ It's a small static site with an overview of who I am and what I've worked on:
 
 - **Home** (`index.html`): a short bio and my co-op and internship experience.
 - **Projects** (`projects.html`): consulting and data projects, with the problem, my role and key contributions.
-- **Contact**: links to LinkedIn and email.
+- **Contact**: links to GitHub, LinkedIn and email in the header, menu and footer.
 
 ## Design
-- Plain HTML and CSS with no framework or build step (`css/style.css`).
-- A green palette with Georgia type, rounded cards and soft shadows, and hover effects on navigation and footer links.
-- Responsive: media queries resize text, images and margins for smaller screens.
+- Built on the [Future Imperfect](https://html5up.net/future-imperfect) template by [HTML5 UP](https://html5up.net) (CC BY 3.0, see `LICENSE-template.txt`), with a green accent color and the content written as experience and project posts.
+- Two pages, `index.html` (about and experience) and `projects.html` (consulting, software and data projects), in plain HTML using the template's CSS and JavaScript. No build step.
+- Responsive layout with a slide-out menu on small screens.
+- `images/monogram.svg` is the placeholder avatar. Swap in a photo by replacing it.
 
-It started as a Northeastern DS4200 (Information Presentation and Visualization) assignment and grew from there. For code and project write-ups, see my [GitHub profile](https://github.com/briannaq-dev).
+For code and project write-ups, see my [GitHub profile](https://github.com/briannaq-dev).
 
 ## Run locally
 ```
