@@ -8,9 +8,9 @@
 		<title>Projects | Brianna Quinn</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Consulting, software and data projects by Brianna Quinn: AI Hotel Pricing Platform, AI Dating App, SpotiRecs, US Transit Accessibility, Foursquare, TA Assignment Optimizer, Pharma Sales Star Schema and Monte Carlo." />
+		<meta name="description" content="Consulting, software and data projects by Brianna Quinn: AI Hotel Pricing Platform, AI Dating App, SpotiRecs, US Transit Accessibility, Foursquare, TA Assignment Optimizer, Pharma Sales Star Schema, Monte Carlo, and more." />
 		<meta property="og:title" content="Projects | Brianna Quinn" />
-		<meta property="og:description" content="Consulting, software and data projects by Brianna Quinn: AI Hotel Pricing Platform, AI Dating App, SpotiRecs, US Transit Accessibility, Foursquare, TA Assignment Optimizer, Pharma Sales Star Schema and Monte Carlo." />
+		<meta property="og:description" content="Consulting, software and data projects by Brianna Quinn: AI Hotel Pricing Platform, AI Dating App, SpotiRecs, US Transit Accessibility, Foursquare, TA Assignment Optimizer, Pharma Sales Star Schema, Monte Carlo, and more." />
 		<link rel="icon" type="image/svg+xml" href="images/monogram.svg" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
@@ -45,12 +45,15 @@
 						<li class="pages"><a href="courses.html"><h3>Courses</h3></a></li>
 						<li><a href="#foursquare"><h3>Foursquare</h3><p>Android app</p></a></li>
 						<li><a href="#ai-dating-app"><h3>AI Dating App</h3><p>Project Manager</p></a></li>
+						<li><a href="#spotify-song-graph-recommender"><h3>Spotify Song Graph Recommender</h3><p>Graph database</p></a></li>
 						<li><a href="#ai-hotel-pricing-platform"><h3>AI Hotel Pricing Platform</h3><p>Project Manager &amp; Software Engineer</p></a></li>
 						<li><a href="#us-transit-accessibility"><h3>US Transit Accessibility</h3><p>Interactive data visualization</p></a></li>
+						<li><a href="#online-news-popularity"><h3>Online News Popularity</h3><p>Machine learning</p></a></li>
 						<li><a href="#spotirecs"><h3>SpotiRecs</h3><p>Software Engineer</p></a></li>
 						<li><a href="#monte-carlo"><h3>Monte Carlo</h3><p>Project Manager &amp; Software Engineer</p></a></li>
 						<li><a href="#ta-assignment-optimizer"><h3>TA Assignment Optimizer</h3><p>Evolutionary algorithm</p></a></li>
 						<li><a href="#pharma-sales-star-schema"><h3>Pharma Sales Star Schema</h3><p>Data engineering</p></a></li>
+						<li><a href="#diabetes-risk-prediction"><h3>Diabetes Risk Prediction</h3><p>Machine learning</p></a></li>
 					</ul>
 				</section>
 			</section>
@@ -94,6 +97,25 @@
 					</footer>
 				</article>
 
+				<article class="post" id="spotify-song-graph-recommender">
+					<header>
+						<div class="title">
+							<h2>Spotify Song Graph Recommender</h2>
+							<p>Graph database</p>
+						</div>
+						<div class="meta">
+							<time class="published">Spring 2026</time>
+							<span class="where">DS4300</span>
+						</div>
+					</header>
+					<p>A music recommendation engine built as a graph database. With a partner, I modeled songs as nodes in Neo4j and connected each one to its 10 nearest neighbors by Euclidean distance over nine standardized audio features, producing a graph of 1,046 songs and 10,460 similarity relationships. I then wrote the Cypher queries that start from songs by two seed artists and recommend similar songs by other artists, filtered by genre and ranked by average distance.</p>
+					<footer>
+						<ul class="actions">
+							<li><a href="https://github.com/briannaq-dev/spotify-song-graph-recommender" class="button large">View on GitHub</a></li>
+						</ul>
+					</footer>
+				</article>
+
 				<article class="post" id="ai-hotel-pricing-platform">
 					<header>
 						<div class="title">
@@ -129,6 +151,25 @@
 						<ul class="actions">
 							<li><a href="https://briannaq-dev.github.io/US-transit-accessibility/" class="button large">Live site</a></li>
 							<li><a href="https://github.com/briannaq-dev/US-transit-accessibility" class="button large">Code</a></li>
+						</ul>
+					</footer>
+				</article>
+
+				<article class="post" id="online-news-popularity">
+					<header>
+						<div class="title">
+							<h2>Online News Popularity</h2>
+							<p>Machine learning</p>
+						</div>
+						<div class="meta">
+							<time class="published">Fall 2025</time>
+							<span class="where">DS4400</span>
+						</div>
+					</header>
+					<p>A machine learning project that predicts how widely an online news article is shared, using the UCI Online News Popularity dataset of nearly 40,000 articles and 58 features. With a partner, I compared Linear, Ridge, and Lasso regression to see whether regularization improves predictions, studied how model complexity affects overfitting and underfitting using RMSE and MAE, and tested whether dimensionality reduction with PCA improves generalization.</p>
+					<footer>
+						<ul class="actions">
+							<li><a href="https://github.com/briannaq-dev/article-popularity" class="button large">View on GitHub</a></li>
 						</ul>
 					</footer>
 				</article>
@@ -208,6 +249,25 @@
 						</ul>
 					</footer>
 				</article>
+
+				<article class="post" id="diabetes-risk-prediction">
+					<header>
+						<div class="title">
+							<h2>Diabetes Risk Prediction</h2>
+							<p>Machine learning</p>
+						</div>
+						<div class="meta">
+							<time class="published">Summer 2024</time>
+							<span class="where">DS3000</span>
+						</div>
+					</header>
+					<p>An end-to-end machine learning project that predicts diabetes status (non-diabetic, pre-diabetic, or diabetic) from CDC survey data on about 250,000 respondents. With my group, I cleaned the data, tested which health indicators were statistically significant, engineered a high-risk feature, and tuned and compared Random Forest, k-NN, and SVC models, prioritizing recall because missing an at-risk patient is the costly error.</p>
+					<footer>
+						<ul class="actions">
+							<li><a href="https://github.com/briannaq-dev/diabetes-risk-prediction" class="button large">View on GitHub</a></li>
+						</ul>
+					</footer>
+				</article>
 			</div>
 
 			<section id="sidebar">
@@ -221,7 +281,7 @@
 
 				<section class="blurb">
 					<h2>About</h2>
-					<p>My projects span AI consulting, full-stack and mobile development, data visualization, and data engineering.</p>
+					<p>My projects span AI consulting, machine learning, full-stack and mobile development, data visualization, data engineering, and algorithms.</p>
 				</section>
 
 				<section class="blurb">
