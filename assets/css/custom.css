@@ -60,3 +60,15 @@
 
 /* Social icons under the About text */
 .blurb .icons { color: #aaaaaa; margin: 1.25em 0 0 0; }
+
+/* Social icons in the top bar, next to the menu button */
+#header .main ul li.social > a { width: 3.25em; text-indent: 3.25em; }
+#header .main ul li.social > a.fa-github:before,
+#header .main ul li.social > a.fa-linkedin-in:before { font-family: 'Font Awesome 5 Brands'; font-weight: 400; }
+#header .main ul li.social > a:hover { color: #2f7d32; }
+
+/* Page links in the slide-out menu, only when the top bar hides them (narrow screens) */
+#menu ul.links li.pages { display: none; }
+@media screen and (max-width: 980px) {
+	#menu ul.links li.pages { display: block; }
+}
