@@ -6,11 +6,12 @@ It's a small static site with an overview of who I am and what I've worked on:
 
 - **Home** (`index.html`): a short bio and my co-op and internship experience.
 - **Projects** (`projects.html`): consulting and data projects, with the problem, my role and key contributions.
+- **Courses** (`courses.html`): the courses I've taken at Northeastern, by semester, with a one-line description of each.
 - **Contact**: links to GitHub, LinkedIn and email in the header, menu and footer.
 
 ## Design
 - Built on the [Future Imperfect](https://html5up.net/future-imperfect) template by [HTML5 UP](https://html5up.net) (CC BY 3.0, see `LICENSE-template.txt`), with a green accent color and the content written as experience and project posts.
-- Two pages, `index.html` (about and experience) and `projects.html` (consulting, software and data projects), in plain HTML using the template's CSS and JavaScript. No build step.
+- Three pages, `index.html` (about and experience), `projects.html` (consulting, software and data projects) and `courses.html` (coursework), in plain HTML using the template's CSS and JavaScript. No build step.
 - Responsive layout. The slide-out menu jumps between the sections of whichever page you are on (each experience or project).
 - `images/headshot.jpg` is my profile photo (cropped, with metadata removed). `images/monogram.svg` is the favicon.
 
